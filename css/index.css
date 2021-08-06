@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width:100%;
 }
 .top-header{
     display:flex;    
@@ -233,14 +234,6 @@ p {
     justify-content: center;
 }
 
-
-
-
-
-
-
-
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -272,4 +265,56 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.top-part{
+    padding-bottom:2%;
+    padding-left:2%;
+    padding-right:2%;
+    border-bottom:1px dashed #4f4f4f;
+}
+.middle-part{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    padding-top:2%;
+}
+
+.middle-part .box-one{    
+    width:45%;   
+    padding-bottom:2%; 
+    border-bottom:1px dashed #4f4f4f;
+}
+.middle-part .box-two{
+    width:45%;  
+    padding-bottom: 2%;
+    border-bottom:1px dashed #4f4f4f;
+}
+.middle-part .box-three{
+    width:45%;
+    padding-bottom:2%;
+    padding-top: 3%;
+    border-bottom:1px dashed #4f4f4f;
+}
+.middle-part .box-four{
+    width:45%;
+    padding-bottom: 2%;
+    padding-top: 3%;
+    border-bottom:1px dashed #4f4f4f;
+}
+.middle-part h2{
+    padding-top:2%;
+}
+.middle-part p{
+    padding-bottom:7%;
+}
+.middle-part a{
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+    border-radius: 10px;
+    padding:2%;
+    
+}
+.bottom-part{
+    padding:3.8%;
 }
